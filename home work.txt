@@ -1,0 +1,25 @@
+# check vowel or not
+c=(input("enter the alphabets"))
+if((c=='a')or(c=='e')or(c=='i')or(c=='o')or(c=='u')):
+    print("the given alphabets is vowel")
+else:
+    print("the given alphabets is consonent")
+#for result program
+sub1=int(input("Enter marks of the ICT subject: "))
+sub2=int(input("Enter marks of the PYTHON subject: "))
+sub3=int(input("Enter marks of the C PROGRAMMING subject: "))
+sub4=int(input("Enter marks of the MULTIMEDIA subject: "))
+sub5=int(input("Enter marks of the DBMS subject: "))
+a=(sub1+sub2+sub3+sub4+sub5) 
+avg=(a*100)/500
+print("your total marks in percent\n",avg)
+if(avg>=70):
+     print("student passed with distinction\n")
+elif(avg>=70&avg<60):
+     print("student passed with first class\n")
+elif(avg>=60&avg<50):
+     print("student passed with second class\n")
+elif(avg>=50&avg<40):
+     print("student passed with pass class\n")
+else:
+    print("failed student")
